@@ -1,0 +1,9 @@
+.mainbox{
+    margin: auto;
+    margin-top: 10vh;
+    height: 50vh;
+    width: 40vw;
+    text-align: center;
+    border: 2px solid black;
+    
+}
