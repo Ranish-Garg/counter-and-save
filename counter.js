@@ -1,13 +1,18 @@
+
+let count=0
 function increment()
 {
     console.log("hello")
     count++;
     document.getElementById("countno").innerText=count
 }
-let count=0
+
 function save()
 {
+    let saveEl=document.getElementById("savedata")
     console.log(count)
-    let text = document.getElementById("savedata").innerText
-    document.getElementById("savedata").innerText=text+"_"+count
-}
+    saveEl.innerText += count+"-"
+    count = 0
+    document.getElementById("countno").innerText = 0
+
+}  
